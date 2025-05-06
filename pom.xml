@@ -9,10 +9,11 @@
 
   <name>AutomationBuildCon</name>
   <url>http://maven.apache.org</url>
-
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  <maven.compiler.source>21</maven.compiler.source>   <!-- or 17 -->
+  <maven.compiler.target>21</maven.compiler.target>   <!-- or 17 -->
+</properties>
 
   <dependencies>
 	    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
